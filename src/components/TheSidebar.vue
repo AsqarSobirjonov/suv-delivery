@@ -56,6 +56,11 @@ function logOut() {
   transition: all 0.2s linear;
   border-right: 2px solid #f5f5f5;
   z-index: 11;
+  @media screen {
+    max-width: 400px;
+    display: none;
+    
+  }
 }
 
 .sideBarLogo {
@@ -85,6 +90,7 @@ function logOut() {
   border-radius: 50%;
   background-color: #f5f5f5;
   transition: all 0.2s linear;
+ 
 }
 
 .toggleSidebar::before {

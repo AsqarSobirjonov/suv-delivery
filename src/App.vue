@@ -32,6 +32,11 @@ onBeforeMount(async () => {
   padding: 40px 20px 20px;
   transition: all 0.2s linear;
   z-index: 10;
+  @media screen {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+  }
 }
 
 body.sideBarClose .content {

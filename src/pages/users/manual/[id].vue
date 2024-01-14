@@ -4,5 +4,5 @@ const router = useRouter()
 </script>
 
 <template>
-  <pre>{{router.currentRoute.value.path}}</pre>
+  <pre>{{ router.currentRoute.value.path }}</pre>
 </template>

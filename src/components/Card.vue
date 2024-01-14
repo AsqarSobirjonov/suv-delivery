@@ -2,6 +2,7 @@
 
 <template>
   <div class="mainCard">
+    
     <slot />
   </div>
 </template>
@@ -10,10 +11,10 @@
 .mainCard {
   position: relative;
   background-color: #fff;
-  border: 2px solid #f5f5f5;
+  border: 2px solid #090808;
   border-radius: 10px;
   padding: 20px 12px;
   font-weight: 500;
-  color: #000000;
+  color: #e7dddd;
 }
 </style>
